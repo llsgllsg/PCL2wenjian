@@ -69,6 +69,9 @@
 <TextBlock TextWrapping="Wrap" Margin="150,0,0,10" Foreground="#114eac" FontSize="15"
                     Text="---建议查看以上内容---" />
 
+<local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="请看一下" EventType="弹出窗口" EventData="请看一下|如果图片失效了请叫作者来修，联系邮箱：llsgllsg@outlook.com" />
+
 <local:MyCard Margin="0,0,0,12" Title="欢迎页" CanSwap="True" IsSwaped="False">
      <StackPanel Margin="24,40,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,12" Foreground="{DynamicResource ColorBrush2}" FontSize="20"
