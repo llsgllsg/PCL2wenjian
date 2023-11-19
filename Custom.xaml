@@ -1,0 +1,258 @@
+﻿<!-- 这是注释 -->
+
+<!-- 卡片（local:MyCard）的 Title 属性决定了它的标题。&#xA;为卡片添加 CanSwap 属性让它可以被折叠，True 代表是，False 代表否。在此基础上，再使用 IsSwaped 属性调整它是否默认被折叠。" /> -->
+
+
+<!-- <local:MyCard Title="列表项 1：基础" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="你也可以使用列表项 “local:MyListItem” 来替代按钮，其使用方式与按钮类似。" />
+        <local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://www.baidu.com/favicon.ico" Title="百度" Info="百度一下，你就知道！" 
+		            EventType="打开网页" EventData="https://www.baidu.com/" Type="Clickable" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="Logo 属性为列表项的图标，指定的可以是链接也可以是文件路径；Title 是大标题，Info 是可选的小标题（详细信息）；Type 如果省略，该列表项则单纯只展示信息，仅当 Type 为 Clickable 才能触发点击效果。"/>
+        <local:MyListItem Margin="-5,2,-5,8"
+                    Logo="pack://application:,,,/images/Blocks/Grass.png"
+		            EventType="打开帮助" EventData="帮助/自定义帮助.json" Type="Clickable" />
+
+    </StackPanel>
+</local:MyCard>
+-->
+
+<local:MyCard Title="Minecraft Wiki迁移啦" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="125,0,0,10" Foreground="#EAC100"
+                    Text="选择你想要的点一点" />
+
+ <local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="http://mtw.so/5F9aNK" Title="新Wiki入口" Info="点我打开新Wiki" 
+		            EventType="打开网页" EventData="https://zh.minecraft.wiki/w/Minecraft_Wiki" Type="Clickable" />
+ <local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="http://mtw.so/5F9aNK" Title="查看原文" Info="点我打开以下文本原文" 
+		            EventType="打开网页" EventData="https://zh.minecraft.wiki/w/Minecraft_Wiki:%E8%BF%81%E7%A7%BB%E9%80%9A%E7%9F%A5" Type="Clickable" />
+
+<Image Height="200" HorizontalAlignment="Center" Source="https://zh.minecraft.wiki/images/Forking_from_Fandom_poster.png?68357" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="15"
+                    Text="    " />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="15"
+                    Text="更快的加载速度" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="12"
+                    Text="对于中国大陆用户，新站的加载速度有!!!明显改善!!!这是因为新wiki的界面更加简洁，无需加载无关资源，也不会加载乱七八糟的追踪脚本。" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="15"
+                    Text="更少的广告" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="12"
+                    Text="新网站不再会有弹窗、问卷、无关文章或是视频广告。每个页面最多只会展示1条广告。
+当前，由于我们还在完善广告基建，页面上暂时还不会显示广告。开始显示广告后，我们会确保再次发布通知，并在广告的位置与选择上做到公开透明。" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="15"
+                    Text="新皮肤" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="12"
+                    Text="你是否也曾因Fandom那丑陋的黄色侧边栏而困扰？这次，我们为wiki设计了一套熟悉却又不失新潮的外观。除此之外，新的wiki还有深色模式（在网页的右上角启用）和固定宽度（目前只有已登录用户可以开启，位于参数设置的“小工具”中）的选项。我们还更换了全新的Logo！" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="15"
+                    Text="更完善的搜索功能" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="12"
+                    Text="或许你曾注意到，Fandom的搜索结果常常与你的需求不符。现在，新站的搜索引擎更强大、更准确。比如，你可以试着搜索“盔甲纹饰 快照”找到盔甲纹饰是在Java版的哪一个快照中加入的。在Fandom wiki上，你大概率无法用搜索找到这个信息。" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="15"
+                    Text="没有年龄弹窗" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="12"
+                    Text="与Fandom不同，我们不会强制你告诉我们你是否已经成年。" />
+         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="15"
+                    Text="匿名编辑回归" />
+<TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="12"
+                    Text="你不再需要创建账号就能编辑wiki了。" />
+    </StackPanel>
+</local:MyCard>
+
+
+
+
+<TextBlock TextWrapping="Wrap" Margin="150,0,0,10" Foreground="#114eac" FontSize="15"
+                    Text="---建议查看以上内容---" />
+
+<local:MyCard Margin="0,0,0,12" Title="欢迎页" CanSwap="True" IsSwaped="False">
+     <StackPanel Margin="24,40,24,15">
+          <TextBlock HorizontalAlignment="Center" Margin="0,0,0,12" Foreground="{DynamicResource ColorBrush2}" FontSize="20"
+               Text="欢迎使用乱七八糟!" />
+          <local:MyHint Text="主页作者: zqwj" Margin="0,0,0,0" Padding="0,2,0,2" IsWarn="False" />
+        <TextBlock TextWrapping="Wrap" Margin="150,0,0,4"
+                    Text="         " />	        
+<local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="不要点我" EventType="弹出窗口" EventData="看啥看|™第让你点了吗\n啊？\n\n\n\n \n \n \n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n还看呢？" />
+          <Calendar HorizontalAlignment="Center" Margin="0,12,0,10" Grid.Column="0"/>
+          <TextBlock Margin="5,0,5,12" TextWrapping="Wrap" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}" Text="{cave}" />
+          <local:MyButton Margin="0,-10,-5,0" Width="15" Height="15" HorizontalAlignment="Right" ToolTip="点击我刷新哦" EventType="刷新主页" EventData="回声洞">
+               <Path Fill="{DynamicResource ColorBrush5}" Stretch="Fill" Width="15" Height="15">
+                    <Path.Data>
+                         <PathGeometry FillRule="Nonzero" Figures="M256.455,8C322.724,8.119,382.892,34.233,427.314,76.685L463.029,40.97C478.149,25.851,504,36.559,504,57.941L504,192C504,205.255,493.255,216,480,216L345.941,216C324.559,216,313.851,190.149,328.97,175.029L370.72,133.279C339.856,104.38 299.919,88.372 257.49,88.006 165.092,87.208 87.207,161.983 88.0059999999999,257.448 88.764,348.009 162.184,424 256,424 297.127,424 335.997,409.322 366.629,382.444 371.372,378.283 378.535,378.536 382.997,382.997L422.659,422.659C427.531,427.531 427.29,435.474 422.177,440.092 378.202,479.813 319.926,504 256,504 119.034,504 8.001,392.967 8,256.002 7.999,119.193 119.646,7.755 256.455,8z"/>
+                    </Path.Data>
+               </Path>
+          </local:MyButton>
+     </StackPanel>
+</local:MyCard>
+
+
+<local:MyCard Title="Wiki本周页面" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="15"
+                    Text="雷暴是一种较为稀有的、危险的天气状况，在主世界随机生成。
+
+降雨或降雪天气加重时，有小概率变为雷暴天气。雷暴中具体的降水形式视生物群系温度和海拔高度而定。
+
+雷暴天气发生时，玩家可以使用床，即使是在白天。使用床睡觉可以跳过雷暴，也会重置游戏内的雷暴计时器，使得起床之后一般不会出现雷暴天气。
+
+与雨雪天气相似，雷暴时天空会变暗，云会从白色变为较深的灰色，太阳、月亮和星星会隐去。雷暴会使整个世界的天空光照降低，正午的光照会减至10。虽然太阳在雨中不可见，黎明和黄昏时地平线上的曙光和暮光仍然可见。
+
+与普通的大雨和大雪不同，雷暴时敌对生物的生成系统认为天空光照被削弱10级，使得这些生物可以在一天中的任何时间生成。
+
+闪电是雷暴天气的标志性特征之一，会在雷暴天气持续期间随机落下。
+
+图为雷暴中一道闪电束击中了树。" />
+<Image Height="250" HorizontalAlignment="Center" Source="http://mtw.so/6vMGX2" />
+  <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" Foreground="#000000" FontSize="15"
+                    Text="     " />
+ <local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="http://mtw.so/5F9aNK" Title="打开雷暴介绍页面" Info="点我打开" 
+		            EventType="打开网页" EventData="https://zh.minecraft.wiki/w/%E9%9B%B7%E6%9A%B4" Type="Clickable" />
+
+
+
+    </StackPanel>
+</local:MyCard>
+
+
+<local:MyCard Title="启动 H ! Y ! P ! I ! X ! E ! L !" Margin="0,0,0,15" CanSwap="true" IsSwaped="true">
+    <StackPanel Margin="30,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="100,5,20,0" Foreground="#EAC100" FontSize="13"
+                    Text="去下面的卡片清理一下垃圾吧！" />
+
+
+<TextBlock TextWrapping="Wrap" Margin="135,0,0,4"
+                    Text="建议先清理垃圾再玩"/>
+        <local:MyListItem Margin="-5,0,-5,8"
+            Logo="pack://application:,,,/images/Blocks/CommandBlock.png"
+            Title="清理垃圾" Info="一键清理MC垃圾和PCL2缓存" EventType="清理垃圾" Type="Clickable" />
+
+
+<local:MyButton Margin="120,0,10,0" Width="160" Height="35" HorizontalAlignment="Left" Padding="18,0,13,0"
+                        Text="再来内存优化一下吧" EventType="内存优化" />
+
+<TextBlock TextWrapping="Wrap" Margin="135,0,0,4"
+                    Text="         "/>
+
+
+        <local:MyHint Text="连接稳定的网络了没?" />
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+                    Text="记得看看加速ip哪个线路速度快哦，不仅只看人数，推荐使用镇江线，如果挂了加速器请使用hypixel.net进入，下面提供启动按钮" />
+
+<TextBlock TextWrapping="Wrap" Margin="135,0,0,4"
+                    Text="      "/>
+
+ <local:MyButton Margin="0,4,0,0" Width="270" Height="35"
+                    Text="启动 1.8.9 并进入 Hypixel（hyp原本ip）" EventType="启动游戏" EventData="1.8.9|mc.hypixel.net" ToolTip="开加速器了吗" />
+
+ <local:MyButton Margin="0,4,0,0" Width="250" Height="35"
+                    Text="启动 1.8.9 并进入 Hypixel（镇江线）" EventType="启动游戏" EventData="1.8.9|hypixel.cc" ToolTip="服务器 IP：hypixel.cc" />
+
+ <local:MyButton Margin="0,4,0,0" Width="250" Height="35"
+                    Text="启动 1.8.9 并进入 Hypixel（迁宿线）" EventType="启动游戏" EventData="1.12.2|mc.hypixel.net.cn" ToolTip="服务器 IP：mc.hypixel.net.cn" />
+
+
+    </StackPanel>
+
+
+
+</local:MyCard>
+
+
+
+
+<local:MyCard Title="实用网站快速入口" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="125,0,0,10" Foreground="#EAC100"
+                    Text="选择你想要的点一点" />
+         <local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://static.mcbbs.net/template/mcbbs/image/logo_sc.png" Title="打开 MCBBS" Info="MCBBS一下，你就知道！" 
+		            EventType="打开网页" EventData="https://www.mcbbs.net/" Type="Clickable" />
+
+
+ <local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="https://www.mcmod.cn/static/public/images/logo.png?v=4" Title="打开MC百科" Info="MC百科一下，你就知道！" 
+		            EventType="打开网页" EventData="https://www.mcmod.cn/" Type="Clickable" />
+
+
+ <local:MyListItem  Margin="-5,2,-5,8"
+		            Logo="http://mtw.so/5F9aNK" Title="打开MC Wiki" Info="Wiki一下，你就知道！" 
+		            EventType="打开网页" EventData="https://zh.minecraft.wiki/w/Minecraft_Wiki" Type="Clickable" />
+         
+        <TextBlock TextWrapping="Wrap" Margin="0,10,0,10"
+                    Text="                ——我只是一条线————我只是一条线——" />
+        <local:MyTextButton Margin="0,8,0,0" HorizontalAlignment="Center"
+                    Text="点我—康康MC官网有啥好康的—点我" EventType="打开网页" EventData="https://minecraft.net/" />
+    </StackPanel>
+</local:MyCard>
+
+
+<local:MyCard Title="有灵感？打开一点系统工具" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyButton Margin="0,4,0,8" Width="200" Height="35"
+                    Text="打开记事本" EventType="打开文件" EventData="notepad.exe" />
+        <local:MyButton Margin="0,4,0,8" Width="200" Height="35"
+                    Text="打开CMD，去调戏系统（doge" EventType="打开文件" EventData="cmd.exe" />
+    </StackPanel>
+</local:MyCard>
+
+
+
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Background：调整背景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ - FontWeight：设置为 Bold 时，文字加粗
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+Image（图片）：
+ - Source：要显示的图片的网址
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）（使用时，CanSwap 属性需为 False）
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+local:MyListItem（列表项）：
+ - Logo：列表项的图标（所指定的可以是链接也可以是文件路径）
+ - Title：列表项的大标题
+ - Info：列表项的详细信息，它将会以灰色显示在大标题下方
+ - Type：若留空仅单纯展示信息，设置为 Clickable 触发相应活动
+
+-->
